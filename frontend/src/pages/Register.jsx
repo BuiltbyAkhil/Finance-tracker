@@ -32,7 +32,7 @@ export default function Register() {
                 <form onSubmit={submit}>
                     <div className="mb-3">
                         <label className="form-label">Full Name</label>
-                        <input className="form-control" placeholder="John Doe" value={form.name} onChange={e => setForm({...form, name: e.target.value})} required />
+                        <input className="form-control" placeholder="Akhil M" value={form.name} onChange={e => setForm({...form, name: e.target.value})} required />
                     </div>
                     <div className="mb-3">
                         <label className="form-label">Email Address</label>
